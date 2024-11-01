@@ -1,4 +1,4 @@
-# Keras-surgeon
+# Surgeon
 
 A library for performing network surgery on trained Keras models. Useful for deep neural network pruning.
 
@@ -93,6 +93,9 @@ by the operation. Some layers downstream of pruned layers are also affected.
 
 Recurrent layers’ sequence length must be defined.\
 The model’s input shape must be defined.
+
+# Disclaimer
+This repository is a follow up of [keras-surgeon](https://github.com/BenWhetton/keras-surgeon)
 
 ## License
 
